@@ -1,31 +1,31 @@
 variable "name" {
-    description = "Name of the Web App"
-    type = string
+  description = "Name of the Web App"
+  type        = string
 }
 
 variable "location" {
-    description = "Location of the Web App"
-    type = string
+  description = "Location of the Web App"
+  type        = string
 }
 
 variable "resource_group" {
-    description = "Resource Group of the Web App"
-    type = string
+  description = "Resource Group of the Web App"
+  type        = string
 }
 
 variable "app_service_plan_id" {
-    description = "ID of the App Service Plan"
-    type = string
+  description = "ID of the App Service Plan"
+  type        = string
 }
 
 variable "allowed_ip_address" {
-    description = "Allowed IP Address"
-    type = string
+  description = "Allowed IP Address"
+  type        = string
 }
 
 variable "allow_ip_rule" {
-    description = "Allow rule name for IP"
-    type = string
+  description = "Allow rule name for IP"
+  type        = string
 }
 
 variable "allow_tag_rule" {
@@ -34,6 +34,6 @@ variable "allow_tag_rule" {
 }
 
 variable "tags" {
-    description = "Tags to apply"
-    type = map(string)
+  description = "Tags to apply"
+  type        = map(string)
 }

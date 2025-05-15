@@ -14,12 +14,12 @@ variable "routing_method" {
 }
 
 variable "endpoints" {
-    description = "Map of endpoints"
-  type        = map(object({
-    name = string
-    target = string
+  description = "Map of endpoints"
+  type = map(object({
+    name        = string
+    target      = string
     resource_id = string
-    pr = number
+    pr          = number
   }))
 }
 
