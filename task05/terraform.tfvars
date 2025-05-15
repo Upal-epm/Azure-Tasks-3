@@ -47,9 +47,9 @@ app_services = {
   }
 }
 
-allow_ip_rule      = "allow-agent"
-allow_tag_rule     = "allow-tm"
-allowed_ip_address = "18.153.146.156/32"
+allow_ip_rule  = "allow-agent"
+allow_tag_rule = "allow-tm"
+allow-ip       = "18.153.146.156/32"
 
 traf_name           = "cmaz-xlej9t3c-mod5-traf"
 traf_routing_method = "Performance"

@@ -18,7 +18,7 @@ variable "app_service_plan_id" {
   type        = string
 }
 
-variable "allowed_ip_address" {
+variable "allow-ip" {
   description = "Allowed IP Address"
   type        = string
 }

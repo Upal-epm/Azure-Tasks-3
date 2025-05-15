@@ -31,7 +31,7 @@ variable "app_services" {
   }))
 }
 
-variable "allowed_ip_address" {
+variable "allow-ip" {
   description = "Verification agent IP Address"
   type        = string
 }

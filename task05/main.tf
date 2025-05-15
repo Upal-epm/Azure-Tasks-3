@@ -28,7 +28,7 @@ module "APP" {
   location            = var.resource_groups[each.value.rg_key].location
   resource_group      = var.resource_groups[each.value.rg_key].name
   app_service_plan_id = module.ASP[each.value.asp_key].ASP_id
-  allowed_ip_address  = var.allowed_ip_address
+  allow-ip            = var.allow-ip
   allow_ip_rule       = var.allow_ip_rule
   allow_tag_rule      = var.allow_tag_rule
   tags                = var.tags
