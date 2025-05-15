@@ -47,7 +47,7 @@ app_services = {
   }
 }
 
-allow_ip_rule  = "allow-agent"
+allow_ip_rule  = "allow-ip"
 allow_tag_rule = "allow-tm"
 allow-ip       = "18.153.146.156/32"
 
